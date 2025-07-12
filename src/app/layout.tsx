@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'FolioForge | Personal Portfolio',
-  description: 'A personal portfolio website to showcase skills and projects.',
+  title: 'Mishael Natth VISWANATHAN',
+  description: 'A personal portfolio',
 };
 
 export default function RootLayout({

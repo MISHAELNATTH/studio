@@ -1,10 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Code, Menu, Sparkles, X } from "lucide-react";
+import { Code, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import AIToolDialog from "./ai-tool-dialog";
 import { profile } from "@/lib/data";
 
 const navLinks = [
@@ -12,6 +11,7 @@ const navLinks = [
   { name: "Education", href: "#education" },
   { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
+  { name: "Certificates", href: "#certificates" },
   { name: "Skills", href: "#skills" },
   { name: "Contact", href: "#contact" },
 ];
@@ -36,12 +36,6 @@ export default function Header() {
         </nav>
 
         <div className="flex flex-1 items-center justify-end space-x-2">
-          <AIToolDialog>
-            <Button>
-              <Sparkles className="mr-2 h-4 w-4" />
-              AI Tools
-            </Button>
-          </AIToolDialog>
 
           <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
             <SheetTrigger asChild>

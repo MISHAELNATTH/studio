@@ -2,16 +2,16 @@ import { Code, Cpu, GraduationCap, PenTool, Server, Briefcase, Award, Linkedin, 
 import type { LucideIcon } from "lucide-react";
 
 export const profile = {
-  name: "Alex Doe",
-  title: "Aspiring Web Developer",
+  name: "Mishael Natth",
+  title: "Aspiring Fullstack Developer",
   about: "I am a passionate and driven student currently seeking an alternance opportunity in web development. With a strong foundation in modern web technologies and a keen eye for detail, I enjoy creating intuitive, efficient, and visually appealing user experiences. I am a quick learner, a collaborative team player, and I am excited to apply my skills to real-world projects and contribute to a forward-thinking company.",
-  email: "alex.doe@email.com",
+  email: "mishael1332006@email.com",
 };
 
 export const socialLinks = [
-  { name: "LinkedIn", url: "https://linkedin.com/in/", icon: Linkedin },
-  { name: "GitHub", url: "https://github.com/", icon: Github },
-  { name: "Twitter", url: "https://twitter.com/", icon: Twitter },
+  { name: "LinkedIn", url: "www.linkedin.com/in/mishael-natth-viswanathan", icon: Linkedin },
+  { name: "GitHub", url: "https://github.com/MISHAELNATTH", icon: Github },
+  { name: "Twitter", url: "https://x.com/MishaelNatth", icon: Twitter },
   { name: "Email", url: `mailto:${profile.email}`, icon: Mail },
 ];
 
@@ -19,95 +19,128 @@ export const skills = [
   {
     category: "Frontend",
     icon: PenTool,
-    list: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+    list: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "GTK4"],
   },
   {
     category: "Backend",
     icon: Server,
-    list: ["Node.js", "Express", "Python", "Firebase", "PostgreSQL"],
+    list: ["Node.js", "C/C++", "Python", "SQL", "Java"],
   },
   {
     category: "Tools & Technologies",
     icon: Cpu,
-    list: ["Git & GitHub", "Docker", "Webpack", "Figma", "Genkit"],
+    list: ["Git & GitHub", "Object oriented programming", "Microsoft Office", "Context API"],
   },
 ];
 
 export const education = [
   {
-    degree: "Bachelor's Degree in Computer Science",
-    institution: "University of Technology",
-    period: "2021 - 2024",
-    description: "Focused on software development, algorithms, and data structures. Participated in several hackathons and group projects, developing both technical and teamwork skills.",
+    degree: "Masters in Software Development",
+    institution: "JUNIA Grande ecole d'ingénieur",
+    period: "2023 - 2028",
+    description: "Focused on software development, algorithms, and data structures. Participated in several group and self-learning projects, developing both technical and teamwork skills.",
     icon: GraduationCap,
   },
   {
     degree: "High School Diploma, Scientific Track",
-    institution: "Central High School",
-    period: "2018 - 2021",
-    description: "Graduated with honors, with a strong emphasis on mathematics and physics.",
+    institution: "Kendriya Vidyalaya No.2, Pondicherry",
+    period: "2020 - 2023",
+    description: "Graduated with honors, with a strong emphasis on mathematics, Python, SQL, physics and Chemistry.",
     icon: GraduationCap,
   },
 ];
 
 export const experiences = [
   {
-    role: "Web Development Intern",
-    company: "Innovatech Solutions",
-    period: "Jun 2023 - Aug 2023",
-    description: "Contributed to the development of a client-facing web application using React and TypeScript. Collaborated with the design team to implement responsive UI/UX features and integrated RESTful APIs for dynamic content.",
+    role: "Caisher and Client relations",
+    company: "Supermarché Match, Halluin",
+    period: "Student Contract CDI | April 2025 - Present date",
+    description: "As an international student, working at Supermarché Match allowed me to improve my French through real-world interaction while gaining hands-on experience in customer service and retail operations. I earned the trust of my team through reliability, precision, and a strong work ethic, that the company later offered me a CDI contract. This experience reflects my adaptability, cultural integration, and commitment-qualities I bring to every project as a future software developer.",
     icon: Briefcase,
   },
+
   {
-    role: "Freelance Web Developer",
-    company: "Self-employed",
-    period: "Jan 2022 - Present",
-    description: "Developed and maintained websites for small businesses, focusing on creating clean, responsive, and easy-to-navigate layouts. Managed projects from conception to deployment.",
+    role: "Worker Internship & Sales Associate",
+    company: "Supermarché Match, Halluin",
+    period: "1-Month Internship + 1-Month CDD | Summer 2024",
+    description: "During my summer internship, I worked across various departments of the supermarket (rayon), managing stock, organizing shelves, and supporting store operations. This experience taught me the importance of teamwork, organization, and adaptability in a fast-paced environment. My performance led to a follow-up CDD contract, reinforcing the trust the company placed in me. It was also a key moment in my integration into French professional life, helping me build resilience, responsibility, and workplace communication-skills that continue to support me as I pursue a career in software development through alternance.",
     icon: Briefcase,
   },
+  // {
+  //   role: "Freelance Web Developer",
+  //   company: "Self-employed",
+  //   period: "Jan 2022 - Present",
+  //   description: "Developed and maintained websites for small businesses, focusing on creating clean, responsive, and easy-to-navigate layouts. Managed projects from conception to deployment.",
+  //   icon: Briefcase,
+  // },
 ];
 
 export const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce website with features like product catalog, shopping cart, user authentication, and a checkout process. Built with Next.js, Tailwind CSS, and Stripe for payments.",
-    tags: ["Next.js", "React", "Stripe", "PostgreSQL"],
+    title: "Arduino-based weather systems",
+    description: "Designed and programmed sensor-based embedded systems, acquiring an understanding of embedded systems to complement software development objectives.",
+    tags: ["C Language"],
     imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "online store",
-    liveUrl: "#",
-    repoUrl: "#",
+    // imageHint: "online store",
+    // liveUrl: "#",
+    // repoUrl: "#",
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management tool that allows users to create projects, assign tasks, and track progress. Real-time updates are handled with Firebase.",
-    tags: ["React", "Firebase", "Tailwind CSS", "dnd-kit"],
-    imageUrl: "https://placehold.co/600x400.png",
+    title: "Restaurant Reservation System",
+    description: "Built graphical interface using GTK4 with backend logic, acquiring problem-solving skills by integrating UI and System logic in the C ecosystem.",
+    tags: ["C Language", "GTK4"],
+    imageUrl: "/home/user/studio/src/lib/profile_photo.jpg",
     imageHint: "to-do list",
-    liveUrl: "#",
-    repoUrl: "#",
+    // liveUrl: "#",
+    repoUrl: "https://github.com/MISHAELNATTH/Reservation-System.git",
   },
   {
     title: "Portfolio Website",
     description: "This very portfolio! A responsive personal website to showcase my skills and projects, built with Next.js and featuring GenAI-powered content generation.",
-    tags: ["Next.js", "Tailwind CSS", "GenAI"],
+    tags: ["Next.js", "Tailwind CSS"],
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "personal website",
     liveUrl: "#",
     repoUrl: "#",
   },
+  {
+    title: "Exploratory Data Analysis",
+    description: "Conducted EDA on city datasets. Visualized traffic accident trends using Pandas, Matplotlib, Seaborn.",
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Webscrapping"],
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "personal website",
+    // liveUrl: "#",
+    repoUrl: "https://github.com/MISHAELNATTH/Madrid-EDA.git",
+  },
+  {
+    title: "Recipe-Book App (First Web App)",
+    description: "Conducted EDA on city datasets. Visualized traffic accident trends using Pandas, Matplotlib, Seaborn.",
+    tags: ["React.js", "React Router", "Context API", "HTML", "CSS", "JavaScript"],
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "personal website",
+    liveUrl: "https://mishaelnatth.github.io/my-recipe-book/",
+    repoUrl: "https://github.com/MISHAELNATTH/my-recipe-book.git",
+  },
 ];
 
 export const certificates = [
   {
-    name: "Certified JavaScript Developer",
-    issuer: "Tech Certification Institute",
-    date: "May 2023",
+    name: "Excel Skill - Goldman Sachs",
+    issuer: "Forage",
+    date: "February 2025",
     icon: Award,
   },
   {
-    name: "Responsive Web Design",
-    issuer: "Online Dev University",
-    date: "Jan 2023",
+    name: "Sustainability Certificate",
+    issuer: "Test suite France",
+    date: "May 2024",
     icon: Award,
   },
+  {
+    name: "National Cadet Corps",
+    issuer: "Directorate of National Cadet Corps",
+    date: "May 2020",
+    icon: Award,
+  },
+  
 ];

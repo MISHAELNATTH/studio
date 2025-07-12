@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+//import { Button } from "/home/runner/work/portfolio-site/portfolio-site/src/components/ui/button";
 import { profile } from "@/lib/data";
+
 import { Download } from "lucide-react";
 
 export default function About() {
@@ -13,7 +14,7 @@ export default function About() {
               <div className="absolute inset-0 bg-primary rounded-full transform rotate-6 transition-transform duration-300 hover:rotate-0"></div>
               <div className="absolute inset-2 bg-background rounded-full p-2">
                 <Image
-                  src="https://placehold.co/300x300.png"
+                  src="/lib/profile_photo.jpg"
                   alt={profile.name}
                   width={300}
                   height={300}
@@ -34,12 +35,12 @@ export default function About() {
             <p className="text-muted-foreground text-lg mb-6">
               {profile.about}
             </p>
-            <Button size="lg" asChild>
+            {/* <Button size="lg" asChild>
               <a href="/resume.pdf" download>
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>
