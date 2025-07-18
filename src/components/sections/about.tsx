@@ -14,7 +14,7 @@ export default function About() {
               <div className="absolute inset-0 bg-primary rounded-full transform rotate-6 transition-transform duration-300 hover:rotate-0"></div>
               <div className="absolute inset-2 bg-background rounded-full p-2">
                 <Image
-                  src="/lib/profile_photo.jpg"
+                  src="/profile_photo.jpg"
                   alt={profile.name}
                   width={300}
                   height={300}
