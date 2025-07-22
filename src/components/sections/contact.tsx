@@ -38,21 +38,60 @@ export default function Contact() {
     defaultValues: { name: "", email: "", message: "" },
   });
 
+  // const onSubmit: SubmitHandler<ContactFormValues> = async (data) => {
+  //   setIsSubmitting(true);
+  //   // // In a real app, you would send this data to a server
+  //   // console.log(data);
+    
+  //   // // Simulate API call
+    
+  //   await new Promise(resolve => setTimeout(resolve, 1000));
+    
+  //   setIsSubmitting(false);
+  //   toast({
+  //     title: "Message Sent!",
+  //     description: "Thanks for reaching out. I'll get back to you soon.",
+  //   });
+  //   form.reset();
+  // };
+
   const onSubmit: SubmitHandler<ContactFormValues> = async (data) => {
-    setIsSubmitting(true);
-    // In a real app, you would send this data to a server
-    console.log(data);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. I'll get back to you soon.",
+  setIsSubmitting(true);
+
+  const scriptURL = "https://script.google.com/macros/s/AKfycbyP3EJEoKiu1TEsXOTKlRDIac6heYoLi530vsR5jFECrfXE85L5t86nXrpwvFCaedtx/exec";
+
+  const formData = new FormData();
+  formData.append("name", data.name);
+  formData.append("email", data.email);
+  formData.append("message", data.message);
+
+  try {
+    const response = await fetch(scriptURL, {
+      method: "POST",
+      body: formData,
     });
-    form.reset();
+
+    if (response.ok){
+      toast({
+        title: "Message Sent!",
+        description: "Thanks for reaching out. I'll get back to you soon.",
+      });
+      form.reset();
+    } else {
+      throw new Error("Network response was not ok");
+    }
+  } catch (error) {
+    toast({
+      title: "Error",
+      description: "There was a problem sending your message. Please try again later.",
+      variant: "destructive",
+    });
+    console.error("Form submission error:", error);
+  } finally {
+    setIsSubmitting(false);
+  }
   };
+
 
   return (
     <section id="contact" className="bg-secondary">
