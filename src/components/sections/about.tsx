@@ -1,5 +1,5 @@
 import Image from "next/image";
-//import { Button } from "/home/runner/work/portfolio-site/portfolio-site/src/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { profile } from "@/lib/data";
 
 import { Download } from "lucide-react";
@@ -35,12 +35,12 @@ export default function About() {
             <p className="text-muted-foreground text-lg mb-6">
               {profile.about}
             </p>
-            {/* <Button size="lg" asChild>
+            <Button size="lg" asChild>
               <a href="/resume.pdf" download>
                 <Download className="mr-2 h-5 w-5" />
                 Download CV
               </a>
-            </Button> */}
+            </Button>
           </div>
         </div>
       </div>

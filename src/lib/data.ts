@@ -66,13 +66,7 @@ export const experiences = [
     description: "During my summer internship, I worked across various departments of the supermarket (rayon), managing stock, organizing shelves, and supporting store operations. This experience taught me the importance of teamwork, organization, and adaptability in a fast-paced environment. My performance led to a follow-up CDD contract, reinforcing the trust the company placed in me. It was also a key moment in my integration into French professional life, helping me build resilience, responsibility, and workplace communication-skills that continue to support me as I pursue a career in software development through alternance.",
     icon: Briefcase,
   },
-  // {
-  //   role: "Freelance Web Developer",
-  //   company: "Self-employed",
-  //   period: "Jan 2022 - Present",
-  //   description: "Developed and maintained websites for small businesses, focusing on creating clean, responsive, and easy-to-navigate layouts. Managed projects from conception to deployment.",
-  //   icon: Briefcase,
-  // },
+
 ];
 
 export const projects = [
@@ -81,17 +75,17 @@ export const projects = [
     description: "Designed and programmed sensor-based embedded systems, acquiring an understanding of embedded systems to complement software development objectives.",
     tags: ["C Language"],
     imageUrl: "/arduino.jpg",
-    // imageHint: "online store",
-    // liveUrl: "#",
-    // repoUrl: "#",
+    imageHint: "online store",
+    liveUrl: "",
+    repoUrl: "https://github.com/MISHAELNATTH/Arduino_Projects.git",
   },
   {
     title: "Restaurant Reservation System",
     description: "Built graphical interface using GTK4 with backend logic, acquiring problem-solving skills by integrating UI and System logic in the C ecosystem.",
     tags: ["C Language", "GTK4"],
     imageUrl: "/GUI.jpg",
-    imageHint: "to-do list",
-    // liveUrl: "#",
+    imageHint: "Reservation App",
+    liveUrl: "#",
     repoUrl: "https://github.com/MISHAELNATTH/Reservation-System.git",
   },
   {
@@ -100,16 +94,16 @@ export const projects = [
     tags: ["Next.js", "Tailwind CSS"],
     imageUrl: "/Mishael.png",
     imageHint: "personal website",
-    liveUrl: "#",
-    repoUrl: "#",
+    liveUrl: "https://mishaelnatth.github.io/my-recipe-book/",
+    repoUrl: "https://github.com/MISHAELNATTH/studio.git",
   },
   {
     title: "Exploratory Data Analysis",
     description: "Conducted EDA on city datasets. Visualized traffic accident trends using Pandas, Matplotlib, Seaborn.",
     tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Webscrapping"],
     imageUrl: "/EDA.jpeg",
-    imageHint: "personal website",
-    // liveUrl: "#",
+    imageHint: "Graphs",
+    liveUrl: "",
     repoUrl: "https://github.com/MISHAELNATTH/Madrid-EDA.git",
   },
   {
@@ -117,7 +111,7 @@ export const projects = [
     description: "Conducted EDA on city datasets. Visualized traffic accident trends using Pandas, Matplotlib, Seaborn.",
     tags: ["React.js", "React Router", "Context API", "HTML", "CSS", "JavaScript"],
     imageUrl: "/Recipe_book.png",
-    imageHint: "personal website",
+    imageHint: "catalogue",
     liveUrl: "https://mishaelnatth.github.io/my-recipe-book/",
     repoUrl: "https://github.com/MISHAELNATTH/my-recipe-book.git",
   },

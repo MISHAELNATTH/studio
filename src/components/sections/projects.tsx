@@ -42,6 +42,8 @@ export default function Projects() {
                   ))}
                 </div>
               </CardContent>
+
+              
               <CardFooter className="flex justify-end gap-2">
                 <Button variant="outline" asChild>
                   <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
@@ -49,12 +51,16 @@ export default function Projects() {
                     GitHub
                   </a>
                 </Button>
-                <Button asChild>
+
+                {project.liveUrl && project.liveUrl !== "#" && (
+                  <Button asChild>
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo
                   </a>
-                </Button>
+                  </Button>
+                )}
+                
               </CardFooter>
             </Card>
           ))}
