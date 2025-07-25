@@ -38,22 +38,6 @@ export default function Contact() {
     defaultValues: { name: "", email: "", message: "" },
   });
 
-  // const onSubmit: SubmitHandler<ContactFormValues> = async (data) => {
-  //   setIsSubmitting(true);
-  //   // // In a real app, you would send this data to a server
-  //   // console.log(data);
-    
-  //   // // Simulate API call
-    
-  //   await new Promise(resolve => setTimeout(resolve, 1000));
-    
-  //   setIsSubmitting(false);
-  //   toast({
-  //     title: "Message Sent!",
-  //     description: "Thanks for reaching out. I'll get back to you soon.",
-  //   });
-  //   form.reset();
-  // };
 
   const onSubmit: SubmitHandler<ContactFormValues> = async (data) => {
   setIsSubmitting(true);
@@ -127,7 +111,7 @@ export default function Contact() {
                             <FormItem>
                               <FormLabel>Your Name</FormLabel>
                               <FormControl>
-                                <Input placeholder="John Doe" {...field} />
+                                <Input placeholder="Name" {...field} />
                               </FormControl>
                               <FormMessage />
                             </FormItem>
@@ -140,7 +124,7 @@ export default function Contact() {
                             <FormItem>
                               <FormLabel>Your Email</FormLabel>
                               <FormControl>
-                                <Input placeholder="john.doe@example.com" {...field} />
+                                <Input placeholder="abcd@example.com" {...field} />
                               </FormControl>
                               <FormMessage />
                             </FormItem>
@@ -153,7 +137,7 @@ export default function Contact() {
                             <FormItem>
                               <FormLabel>Your Message</FormLabel>
                               <FormControl>
-                                <Textarea placeholder="Hi Alex, I'd like to connect..." {...field} rows={5} />
+                                <Textarea placeholder="Hi Mishael, I'd like to connect..." {...field} rows={5} />
                               </FormControl>
                               <FormMessage />
                             </FormItem>
