@@ -74,7 +74,7 @@ export const projects = [
     title: "Arduino-based weather systems",
     description: "Designed and programmed sensor-based embedded systems, acquiring an understanding of embedded systems to complement software development objectives.",
     tags: ["C Language"],
-    imageUrl: "/arduino.JPG",
+    imageUrl: "/arduino.jpg",
     imageHint: "online store",
     liveUrl: "",
     repoUrl: "https://github.com/MISHAELNATTH/Arduino_Projects.git",
