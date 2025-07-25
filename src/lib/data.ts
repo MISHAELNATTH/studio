@@ -92,7 +92,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "This very portfolio! A responsive personal website to showcase my skills and projects, built with Next.js and featuring GenAI-powered content generation.",
     tags: ["Next.js", "Tailwind CSS"],
-    imageUrl: "/Mishael.png",
+    imageUrl: "public/Mishael.png",
     imageHint: "personal website",
     liveUrl: "https://mishaelnatth.github.io/my-recipe-book/",
     repoUrl: "https://github.com/MISHAELNATTH/studio.git",
