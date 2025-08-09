@@ -33,44 +33,17 @@ This portfolio is designed to provide visitors with an engaging and visually app
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/portfolio.git
-Navigate to project folder
+   git clone https://github.com/your-username/studio.git
+   cd studio
+   npm install
+   npm start
+   npm run deploy
 
-bash
-Copy
-Edit
-cd portfolio
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Run locally
-
-bash
-Copy
-Edit
-npm start
-Build for production
-
-bash
-Copy
-Edit
-npm run build
-📡 Deployment
-This project is deployed using Firebase Hosting. To deploy:
-
-bash
-Copy
-Edit
-npm run build
-firebase deploy
 📬 Contact
 If you'd like to collaborate, discuss opportunities, or just say hello:
 
-Email: your-email@example.com
+Email: mishael1332006@gmail.com
 
-LinkedIn: Your LinkedIn Profile
+LinkedIn: Mishael Natth Viswanathan
 
-Portfolio: mishaelnatthviswanathan.web.app
+Portfolio: [mishaelnatthviswanathan.web.app](https://mishaelnatthviswanathan.web.app/)
