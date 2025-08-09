@@ -90,7 +90,7 @@ export const projects = [
   },
   {
     title: "Portfolio Website",
-    description: "This very portfolio! A responsive personal website to showcase my skills and projects, built with Next.js and featuring GenAI-powered content generation.",
+    description: "This very portfolio! A responsive personal website to showcase my skills and projects, built with Next.js and will be updated with GenAI-powered content generation in the future.",
     tags: ["Next.js", "Tailwind CSS"],
     imageUrl: "/Mishael.png",
     imageHint: "personal website",
