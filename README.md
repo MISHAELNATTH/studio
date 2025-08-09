@@ -44,6 +44,6 @@ If you'd like to collaborate, discuss opportunities, or just say hello:
 
 Email: mishael1332006@gmail.com
 
-LinkedIn: Mishael Natth Viswanathan
+LinkedIn: [Mishael Natth Viswanathan](https://www.linkedin.com/in/mishael-natth-viswanathan/)
 
 Portfolio: [mishaelnatthviswanathan.web.app](https://mishaelnatthviswanathan.web.app/)
